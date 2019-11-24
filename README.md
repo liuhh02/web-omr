@@ -18,12 +18,14 @@ Make sure your folder structure is as follows:
 ```
 app.py
 vocabulary_semantic.txt
+Aaargh.ttf
 ├── Semantic-Model
 |   ├── semantic_model.meta
 |   └── semantic_model.index
-├── _includes
-|   ├── footer.html
-|   └── header.html
+|   └── semantic_model.data-00000-of-00001
+├── templates
+|   ├── index.html
+|   └── result.html
 ├── _layouts
 |   ├── default.html
 |   └── post.html
@@ -39,6 +41,6 @@ app.py
 vocabulary_semantic.txt
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NDE3MjgzLC0xOTUzMTQwMTc1LC0xMj
-E1MDg4OTYyXX0=
+eyJoaXN0b3J5IjpbMTEzOTE2Njg1NiwtMTk1MzE0MDE3NSwtMT
+IxNTA4ODk2Ml19
 -->
