@@ -1,6 +1,6 @@
 # web-omr
 Web-based Optical Music Recognition tool that translates musical notes on monophonic scores to ABC notation and annotates the ABC notes onto the music score to facilitate the process of learning music.
-
+![Sample Result](https://imgur.com/Dl1HYS2)
 This project was created in a 2 day hackathon at [YouthHacks 2019](https://youthhacks.org/). 
 
 ## Getting Started
@@ -12,5 +12,6 @@ To get started, follow the steps below:
  3. Download the [semantic vocabulary](https://github.com/calvozaragoza/tf-deep-omr/blob/master/Data/vocabulary_semantic.txt)
  4. Download the font [Aaargh.ttf](https://www.fontsquirrel.com/fonts/aaargh) (this is needed to annotate the image with the ABC notation)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MTk2ODI0MCwtMTIxNTA4ODk2Ml19
+eyJoaXN0b3J5IjpbLTE4ODcyNDIzNzEsLTEyMTUwODg5NjJdfQ
+==
 -->
