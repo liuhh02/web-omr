@@ -3,7 +3,7 @@ Web-based Optical Music Recognition tool that translates musical notes on monoph
 This project was created in a 2 day hackathon at [YouthHacks 2019](https://youthhacks.org/). 
 
 ## Getting Started
-
+This web app is built on a tensorflow model 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMzE3NDAyMV19
+eyJoaXN0b3J5IjpbLTEyMTgyNTMzMzRdfQ==
 -->
