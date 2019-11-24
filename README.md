@@ -14,6 +14,7 @@ To get started, follow the steps below:
 
 If you would like to train the semantic model yourself, head over to the tensorflow model [Github repository](https://github.com/calvozaragoza/tf-deep-omr) for instructions and download the [PrIMuS dataset](https://grfia.dlsi.ua.es/primus/).
 
+## Folder Structure
 Make sure your folder structure is as follows:
 ```
 app.py
@@ -28,20 +29,11 @@ Aaargh.ttf
 |   └── result.html
 ├── static
 |   ├── css
-|        └── css
-|   └── post.html
-├── _posts
-|   ├── 2007-10-29-why-every-programmer-should-play-nethack.textile
-|   └── 2009-04-26-barcamp-boston-4-roundup.textile
-├── _data
-|   └── members.yml
-├── _site
-└── index.html
+|        └── bulma.min.css
 ```
-app.py
-vocabulary_semantic.txt
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgwOTc1Mjg2LC0xOTUzMTQwMTc1LC0xMj
-E1MDg4OTYyXX0=
+eyJoaXN0b3J5IjpbLTEyNjgxNjExNjksLTE5NTMxNDAxNzUsLT
+EyMTUwODg5NjJdfQ==
 -->
