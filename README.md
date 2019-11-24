@@ -33,8 +33,8 @@ Aaargh.ttf
 |        └── bulma.min.css
 ```
 ## Run the Web App!
-Once everything has been set up as above, head over to the terminal / 
+Once everything has been set up as above, head over to your terminal / command prompt. Change the directory to the directory with your `app.py` file and run `python app.py`. Wait for a few seconds and you should receive a message on the link you should go to in order to view the web app. Go to the URL, upload your 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjM2NjUyMDgsLTEyNjgxNjExNjksLT
-E5NTMxNDAxNzUsLTEyMTUwODg5NjJdfQ==
+eyJoaXN0b3J5IjpbMTkwNDAyMTc0NiwtMTI2ODE2MTE2OSwtMT
+k1MzE0MDE3NSwtMTIxNTA4ODk2Ml19
 -->
