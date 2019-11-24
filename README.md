@@ -10,7 +10,7 @@ To get started, follow the steps below:
  1. Install the relevant dependencies: tensorflow v1, flask
  2. Download the [semantic model](https://grfia.dlsi.ua.es/primus/models/PrIMuS/Semantic-Model.zip) developed by Calvo-Zaragoza et al.
  3. Download the [semantic vocabulary](https://github.com/calvozaragoza/tf-deep-omr/blob/master/Data/vocabulary_semantic.txt)
- 4. 
+ 4. Download the font [Aaargh.ttf](https://www.fontsquirrel.com/fonts/aaargh) (this is needed to annotate the image with the ABC notation)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTUwODg5NjJdfQ==
+eyJoaXN0b3J5IjpbMTE5MTk2ODI0MCwtMTIxNTA4ODk2Ml19
 -->
