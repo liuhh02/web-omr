@@ -11,7 +11,8 @@ To get started, follow the steps below:
  2. Download the [semantic model](https://grfia.dlsi.ua.es/primus/models/PrIMuS/Semantic-Model.zip) developed by Calvo-Zaragoza et al.
  3. Download the [semantic vocabulary](https://github.com/calvozaragoza/tf-deep-omr/blob/master/Data/vocabulary_semantic.txt)
  4. Download the font [Aaargh.ttf](https://www.fontsquirrel.com/fonts/aaargh) (this is needed to annotate the image with the ABC notation)
+
+If you would like to train the semantic model yourself, head over to the tensorflow model [Github repository](https://github.com/calvozaragoza/tf-deep-omr) for instructions and download the PrIMuS dataset.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODcyNDIzNzEsLTEyMTUwODg5NjJdfQ
-==
+eyJoaXN0b3J5IjpbLTYzMDkyNzYzNiwtMTIxNTA4ODk2Ml19
 -->
