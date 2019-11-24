@@ -33,8 +33,10 @@ Aaargh.ttf
 |        └── bulma.min.css
 ```
 ## Run the Web App!
-Once everything has been set up as above, head over to your terminal / command prompt. Change the directory to the directory with your `app.py` file and run `python app.py`. Wait for a few seconds and you should receive a message on the link you should go to in order to view the web app. Go to the URL, upload your 
+Once everything has been set up as above, head over to your terminal / command prompt. Change the directory to the directory with your `app.py` file and run `python app.py`. Wait for a few seconds and you should receive a message on the link you should go to in order to view the web app. Go to the URL, upload your music sheet and get the result!
+
+The annotated sheet will be saved to the same directory as your `app.py` file.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNDAyMTc0NiwtMTI2ODE2MTE2OSwtMT
-k1MzE0MDE3NSwtMTIxNTA4ODk2Ml19
+eyJoaXN0b3J5IjpbLTE1NTk5MjE2OTIsLTEyNjgxNjExNjksLT
+E5NTMxNDAxNzUsLTEyMTUwODg5NjJdfQ==
 -->
