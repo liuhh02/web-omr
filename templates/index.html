@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ReadThatSheet</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bulma.min.css') }}">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+
+<body>
+
+
+<section class="hero is-light is-fullheight">
+  <!-- Hero head: will stick at the top -->
+
+  <div class="hero-head">
+    <header class="navbar">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item">
+            <h1 class="title">
+                ReadThatSheet
+             </h1>
+          </a>
+          <span class="navbar-burger burger" data-target="navbarMenuHeroC">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navbarMenuHeroC" class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item is-active" href="http://localhost:5000/?">
+              Home
+            </a>
+            <a class="navbar-item">
+              Result
+            </a>
+            <a class="navbar-item">
+              How this works
+            </a>
+            <span class="navbar-item">
+              <a class="button is-success is-inverted">
+                <span class="icon">
+                  <i class="fas fa-info-circle"></i>
+                </span>
+                <span>Contact</span>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+
+  <!-- Hero content: will be in the middle -->
+  <div class="hero-body">
+    <div class="container has-text-centered">
+     <h2 class="subtitle">
+        Upload your Music Score
+      </h2>
+     <form action="{{ url_for('predict')}}" method="post" enctype="multipart/form-data">
+        <div id="file-js-example" class="file has-name is-centered is-boxed">
+          <label class="file-label">
+            <input class="file-input" type="file" name="file">
+            <span class="file-cta">
+              <span class="file-icon">
+                <i class="fas fa-upload"></i>
+              </span>
+              <span class="file-label">
+                Choose a file…
+              </span>
+            </span>
+            <span class="file-name">
+              No file uploaded
+            </span>
+          </label>
+        </div>
+
+        <script>
+          const fileInput = document.querySelector('#file-js-example input[type=file]');
+          fileInput.onchange = () => {
+            if (fileInput.files.length > 0) {
+              const fileName = document.querySelector('#file-js-example .file-name');
+              fileName.textContent = fileInput.files[0].name;
+            }
+          }
+        </script>
+        <br>
+        <br>
+        <input class="button is-primary" type="submit" value="ReadThatSheet!">
+    </form>
+
+    </div>
+  </div>
+
+</section>
+
+
+</body>
+</html>
