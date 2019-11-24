@@ -26,8 +26,9 @@ Aaargh.ttf
 ├── templates
 |   ├── index.html
 |   └── result.html
-├── _layouts
-|   ├── default.html
+├── static
+|   ├── css
+|        └── css
 |   └── post.html
 ├── _posts
 |   ├── 2007-10-29-why-every-programmer-should-play-nethack.textile
@@ -41,6 +42,6 @@ app.py
 vocabulary_semantic.txt
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzOTE2Njg1NiwtMTk1MzE0MDE3NSwtMT
-IxNTA4ODk2Ml19
+eyJoaXN0b3J5IjpbMjgwOTc1Mjg2LC0xOTUzMTQwMTc1LC0xMj
+E1MDg4OTYyXX0=
 -->
