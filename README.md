@@ -1,5 +1,6 @@
 # web-omr
 Web-based Optical Music Recognition tool that translates musical notes on monophonic scores to ABC notation and annotates the ABC notes onto the music score to facilitate the process of learning music.
+
 This project was created in a 2 day hackathon at [YouthHacks 2019](https://youthhacks.org/). 
 
 ## Getting Started
@@ -8,7 +9,8 @@ To get started, follow the steps below:
 
  1. Install the relevant dependencies: tensorflow v1, flask
  2. Download the [semantic model](https://grfia.dlsi.ua.es/primus/models/PrIMuS/Semantic-Model.zip) developed by Calvo-Zaragoza et al.
- 3. Download the vocabulary list
+ 3. Download the [semantic vocabulary](https://github.com/calvozaragoza/tf-deep-omr/blob/master/Data/vocabulary_semantic.txt)
+ 4. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIwMzQzOTA4XX0=
+eyJoaXN0b3J5IjpbLTEyMTUwODg5NjJdfQ==
 -->
