@@ -1,6 +1,6 @@
 # web-omr
 Web-based Optical Music Recognition tool that translates musical notes on monophonic scores to ABC notation and annotates the ABC notes onto the music score to facilitate the process of learning music.
-![Sample Result](https://imgur.com/Dl1HYS2)
+![Sample Result](https://i.imgur.com/Dl1HYS2.png)
 This project was created in a 2 day hackathon at [YouthHacks 2019](https://youthhacks.org/). 
 
 ## Getting Started
@@ -37,6 +37,6 @@ Once everything has been set up as above, head over to your terminal / command p
 
 The annotated sheet will be saved to the same directory as your `app.py` file.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTk5MjE2OTIsLTEyNjgxNjExNjksLT
-E5NTMxNDAxNzUsLTEyMTUwODg5NjJdfQ==
+eyJoaXN0b3J5IjpbMzIwNzQwOTEwLC0xNTU5OTIxNjkyLC0xMj
+Y4MTYxMTY5LC0xOTUzMTQwMTc1LC0xMjE1MDg4OTYyXX0=
 -->
