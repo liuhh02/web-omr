@@ -40,3 +40,6 @@ The annotated sheet will be saved to the same directory as your `app.py` file.
 eyJoaXN0b3J5IjpbMzIwNzQwOTEwLC0xNTU5OTIxNjkyLC0xMj
 Y4MTYxMTY5LC0xOTUzMTQwMTc1LC0xMjE1MDg4OTYyXX0=
 -->
+
+## Acknowledgements
+A huge thanks to Calvo-Zaragoza et al. for building this awesome deep learning model, and for sharing the trained model, dataset and code.
