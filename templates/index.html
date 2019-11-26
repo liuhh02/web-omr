@@ -10,8 +10,10 @@
 
 <body>
 
-    <section class="hero is-primary is-fullheight">
+
+<section class="hero is-light is-fullheight">
   <!-- Hero head: will stick at the top -->
+
   <div class="hero-head">
     <header class="navbar">
       <div class="container">
@@ -29,10 +31,10 @@
         </div>
         <div id="navbarMenuHeroC" class="navbar-menu">
           <div class="navbar-end">
-            <a class="navbar-item" href="http://localhost:5000/?">
+            <a class="navbar-item is-active" href="http://localhost:5000/?">
               Home
             </a>
-            <a class="navbar-item is-active">
+            <a class="navbar-item">
               Result
             </a>
             <a class="navbar-item" href="https://www.mdpi.com/2076-3417/8/4/606/htm">
@@ -55,40 +57,46 @@
   <!-- Hero content: will be in the middle -->
   <div class="hero-body">
     <div class="container has-text-centered">
-      <img typr="image/png" src="annotated.png">
-      <br>
-        <nav class="level-center">
-          <div class="level-item has-text-centered">
-            <div>
-              <br>
-             <form action="{{ url_for('root')}}">
-                <input class="button is-info is-centered" type="submit" value="Read New Sheet">
-            </form>
-            </div>
-          </div>
-          <div class="level-item has-text-centered">
-        </nav>
-        <nav class="level-right">
-            <h2 class="subtitle">
-            <strong> Share this! </strong>
-            </h2>
-            </nav>
-        <nav class="level-right">
-            <a class="button is-medium is-facebook" href="https://www.facebook.com/campaign/landing.php?&campaign_id=1635645017&extra_1=s%7Cc%7C313627652532%7Ce%7Cfacebook%7C&placement=&creative=313627652532&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D1635645017%26adgroupid%3D60549328697%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D1t1%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D9062531%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAiAzuPuBRAIEiwAkkmOSFJk3Ljc25ImzaP8OuNBzxjw5Jf3jgrQzjZrW2GjoqOeI1eAdpBxJxoCClMQAvD_BwE">
-              <span class="fab fa-facebook"></span>
-            </a>
-            <a class="button is-medium is-twitter" href="https://twitter.com/?lang=en">
-              <span class="fab fa-twitter"></span>
-            </a>
-            <a class="button is-medium is-instagram" href="https://www.instagram.com/">
-              <span class="fab fa-instagram"></span>
-            </a>
-            </nav>
+     <h2 class="subtitle">
+        Upload your Music Score
+      </h2>
+     <form action="{{ url_for('predict')}}" method="post" enctype="multipart/form-data">
+        <div id="file-js-example" class="file has-name is-centered is-boxed">
+          <label class="file-label">
+            <input class="file-input" type="file" name="file">
+            <span class="file-cta">
+              <span class="file-icon">
+                <i class="fas fa-upload"></i>
+              </span>
+              <span class="file-label">
+                Choose a file…
+              </span>
+            </span>
+            <span class="file-name">
+              No file uploaded
+            </span>
+          </label>
+        </div>
+
+        <script>
+          const fileInput = document.querySelector('#file-js-example input[type=file]');
+          fileInput.onchange = () => {
+            if (fileInput.files.length > 0) {
+              const fileName = document.querySelector('#file-js-example .file-name');
+              fileName.textContent = fileInput.files[0].name;
+            }
+          }
+        </script>
+        <br>
+        <br>
+        <input class="button is-primary" type="submit" value="ReadThatSheet!">
+    </form>
 
     </div>
   </div>
 
 </section>
+
 
 </body>
 </html>
