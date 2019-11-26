@@ -8,7 +8,7 @@ This web app is developed with Flask on a [tensorflow model](https://github.com/
 
 To get started, follow the steps below:
 
- 1. Install the following dependencies: tensorflow v1, flask
+ 1. Install the following dependencies: tensorflow v1, flask, opencv
  2. Download the [semantic model](https://grfia.dlsi.ua.es/primus/models/PrIMuS/Semantic-Model.zip) developed by Calvo-Zaragoza et al.
  3. Download the [semantic vocabulary](https://github.com/calvozaragoza/tf-deep-omr/blob/master/Data/vocabulary_semantic.txt)
  4. Download the font [Aaargh.ttf](https://www.fontsquirrel.com/fonts/aaargh) (this is needed to annotate the image with the ABC notation)
@@ -33,9 +33,9 @@ Aaargh.ttf
 |        └── bulma.min.css
 ```
 ## Run the Web App!
-Once everything has been set up as above, head over to your terminal / command prompt. Change the directory to the directory with your `app.py` file and run `python app.py`. Wait for a few seconds and you should receive a message on the link you should go to in order to view the web app. Go to the URL, upload your music sheet and get the result!
+Once everything has been set up as above, head over to your terminal / command prompt. Change the directory to the directory with your `app.py` file and run `python app.py`. Wait for a few seconds and you should receive a message on the link you should go to in order to view the web app. Go to the URL, upload your music sheet and get the result! 
 
-The annotated sheet will be saved to the same directory as your `app.py` file.
+The annotated sheet will be saved to the same folder as `app.py` with the name `annotated.png`. 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMzIwNzQwOTEwLC0xNTU5OTIxNjkyLC0xMj
 Y4MTYxMTY5LC0xOTUzMTQwMTc1LC0xMjE1MDg4OTYyXX0=
