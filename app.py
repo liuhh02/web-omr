@@ -1,8 +1,6 @@
 from flask import Flask,request,jsonify,send_from_directory,render_template, send_file, make_response
 from functools import wraps, update_wrapper
-from datetime import datetime
-
-from werkzeug import secure_filename
+from werkzeug.utils import secure_filename
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 import tensorflow as tf
@@ -11,10 +9,6 @@ import numpy as np
 from PIL import Image
 from PIL import ImageFont
 from PIL import ImageDraw
-import requests
-import webbrowser
-import time
-count=0
 app = Flask(__name__, static_url_path='')
 
 def sparse_tensor_to_strs(sparse_tensor):
@@ -84,19 +78,6 @@ WIDTH_REDUCTION, HEIGHT = sess.run([width_reduction_tensor, height_tensor])
 
 decoded, _ = tf.nn.ctc_greedy_decoder(logits, seq_len)
 
-# @app.after_request
-# def add_header(r):
-#     """
-#     Add headers to both force latest IE rendering engine or Chrome Frame,
-#     and also to cache the rendered page for 10 minutes.
-#     """
-#     r.headers["Cache-Control"] = "no-cache, no-store, must-revalidate"
-#     r.headers["Pragma"] = "no-cache"
-#     r.headers["Expires"] = "0"
-#     r.headers['Cache-Control'] = 'public, max-age=0'
-#     return r
-
-
 @app.route('/img/<filename>')
 def send_img(filename):
    return send_from_directory('', filename)
@@ -147,14 +128,14 @@ def predict():
       # print(img_arr.shape[0])
       draw = ImageDraw.Draw(layer)
       # font = ImageFont.truetype(<font-file>, <font-size>)
-      font = ImageFont.truetype("Aaargh.ttf", 16)
+      font = ImageFont.truetype("Aaargh.ttf", 20)
       # draw.text((x, y),"Sample Text",(r,g,b))
       j = width / 9
       for i in notes:
           draw.text((j, height-40), i, (0,0,0), font=font)
-          j+= (width / (len(notes) + 2))
-      layer.save("templates/sample6.png")
+          j+= (width / (len(notes) + 4))
+      layer.save("annotated.png")
       return render_template('result.html')
 
 if __name__=="__main__":
-    app.run(host="0.0.0.0")
+    app.run()
