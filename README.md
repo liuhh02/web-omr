@@ -1,7 +1,7 @@
 # web-omr
 Web-based Optical Music Recognition tool that translates musical notes on monophonic scores to ABC notation and annotates the ABC notes onto the music score to facilitate the process of learning music.
 ![Sample Result](https://i.imgur.com/Dl1HYS2.png)
-This project was created in a 2 day hackathon at [YouthHacks 2019](https://youthhacks.org/). 
+See the full article explaining this project [here](https://towardsdatascience.com/i-built-a-music-sheet-transcriber-heres-how-74708fe7c04c). This project was created in a 2 day hackathon at [YouthHacks 2019](https://youthhacks.org/).
 
 ## Getting Started
 This web app is developed with Flask on a [tensorflow model](https://github.com/calvozaragoza/tf-deep-omr) built by Calvo-Zaragoza et al. published as [End-to-End Neural Optical Music Recognition of Monophonic Scores](https://www.mdpi.com/2076-3417/8/4/606) in the Applied Sciences Journal 2018.
