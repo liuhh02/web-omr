@@ -3,4 +3,4 @@
 CSC EXCO'20
 
 Type in your name here!
-hi im y6 lmao
+hi im y6
