@@ -2,5 +2,5 @@
 
 CSC EXCO'20
 
-Eric Li
- 
+Type in your name here!
+Hi I'm Varnika!
