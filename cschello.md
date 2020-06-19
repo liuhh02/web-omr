@@ -4,6 +4,8 @@ CSC EXCO'20
 
 Type in your name here!
 
+hi im jingya!
+
 Hi, Im Dhinesh
 
 Foo Kang
