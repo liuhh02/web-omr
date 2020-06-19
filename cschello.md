@@ -3,6 +3,8 @@
 CSC EXCO'20
 Type in your name here!
 
+hey
+
 ivan woaw
 
 hello im yida hi hello
