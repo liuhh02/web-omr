@@ -3,6 +3,8 @@
 CSC EXCO'20
 Type in your name here!
 
+Foo Kang
+
 hi im y6
 
 hey
